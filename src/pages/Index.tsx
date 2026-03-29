@@ -35,13 +35,14 @@ const Index = () => {
       <header className="border-b border-border" role="banner">
         <div className="container flex items-center justify-between py-5">
           <a href="/" className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground" aria-label="Homepage">
+            <img src="/centerstaged-logo.svg" alt="CenterStaged logo" className="h-8 w-8" />
             <span className="font-heading text-3xl font-bold tracking-tight">centerstaged.io</span>
           </a>
           <nav aria-label="Main navigation">
             <ul className="flex items-center gap-8 font-body text-sm">
               <li><a href="#products" className="text-muted-foreground hover:text-foreground transition-colors">Products</a></li>
               <li><a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About</a></li>
-              <li><a href="mailto:hello@centerstaged.io" className="text-foreground font-medium hover:text-muted-foreground transition-colors">Contact</a></li>
+              <li><a href="/contact" className="text-foreground font-medium hover:text-muted-foreground transition-colors">Contact</a></li>
             </ul>
           </nav>
         </div>
