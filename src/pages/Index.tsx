@@ -36,7 +36,7 @@ const Index = () => {
         <div className="container flex items-center justify-between py-5">
           <a href="/" className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground" aria-label="Homepage">
             <img src={logo} alt="centerstaged.io logo" className="w-6 h-6" width={512} height={512} />
-            <span className="font-heading text-lg font-bold tracking-tight">centerstaged.io</span>
+            <span className="font-heading text-4xl font-bold tracking-tight uppercase">centerstaged.io</span>
           </a>
           <nav aria-label="Main navigation">
             <ul className="flex items-center gap-8 font-body text-sm">
