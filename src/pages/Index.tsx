@@ -64,7 +64,7 @@ const Index = () => {
               <br />
               for the
               <br />
-              <span className="text-muted-foreground">smartboard.</span>
+              <span className="text-accent">smartboard.</span>
             </h1>
             <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-lg font-body leading-relaxed">
               Interactive classroom tools designed to make every lesson engaging, accessible, and unforgettable.
@@ -90,7 +90,7 @@ const Index = () => {
         </section>
 
         {/* About */}
-        <section id="about" className="bg-foreground text-background" aria-labelledby="about-heading">
+        <section id="about" className="bg-primary text-primary-foreground" aria-labelledby="about-heading">
           <div className="container py-24 md:py-32">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
