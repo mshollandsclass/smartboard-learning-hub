@@ -25,7 +25,7 @@ const Contact = () => {
       <header className="border-b border-border" role="banner">
         <div className="container flex items-center justify-between py-5">
           <a href="/" className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground" aria-label="Homepage">
-            <img src="/centerstaged-logo.svg" alt="CenterStaged logo" className="h-8 w-8" />
+            <img src={`${import.meta.env.BASE_URL}centerstaged-logo.svg`} alt="CenterStaged logo" className="h-8 w-8" />
             <span className="font-heading text-3xl font-bold tracking-tight">centerstaged.io</span>
           </a>
           <nav aria-label="Main navigation">
