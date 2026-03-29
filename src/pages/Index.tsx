@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ProductCard from "@/components/ProductCard";
-import logo from "/logo.png";
+import logo from "/logo.svg";
 
 const products = [
   {
