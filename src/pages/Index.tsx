@@ -36,13 +36,13 @@ const Index = () => {
         <div className="container flex items-center justify-between py-5">
           <a href="/" className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground" aria-label="Homepage">
             <Monitor className="w-5 h-5" strokeWidth={2} aria-hidden="true" />
-            <span className="font-heading text-lg font-bold tracking-tight">BoardLab</span>
+            <span className="font-heading text-lg font-bold tracking-tight">CenterStaged</span>
           </a>
           <nav aria-label="Main navigation">
             <ul className="flex items-center gap-8 font-body text-sm">
               <li><a href="#products" className="text-muted-foreground hover:text-foreground transition-colors">Products</a></li>
               <li><a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About</a></li>
-              <li><a href="mailto:hello@boardlab.com" className="text-foreground font-medium hover:text-muted-foreground transition-colors">Contact</a></li>
+              <li><a href="mailto:hello@centerstaged.io" className="text-foreground font-medium hover:text-muted-foreground transition-colors">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -116,7 +116,7 @@ const Index = () => {
       <footer className="border-t border-border" role="contentinfo">
         <div className="container py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-body text-sm text-muted-foreground">
-            © {new Date().getFullYear()} BoardLab. All rights reserved.
+            © {new Date().getFullYear()} CenterStaged. All rights reserved.
           </p>
           <p className="font-body text-xs text-muted-foreground">
             WCAG 2.1 AA Compliant
