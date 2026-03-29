@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ProductCard from "@/components/ProductCard";
-import logo from "/logo.png";
+import logo from "/logo.svg";
 
 const products = [
   {
@@ -35,7 +35,7 @@ const Index = () => {
       <header className="border-b border-border" role="banner">
         <div className="container flex items-center justify-between py-5">
           <a href="/" className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground" aria-label="Homepage">
-            <img src={logo} alt="centerstaged.io logo" className="w-6 h-6" width={512} height={512} />
+            <img src={logo} alt="centerstaged.io logo" className="h-9 w-auto" />
             <span className="font-heading text-4xl font-bold tracking-tight uppercase">centerstaged.io</span>
           </a>
           <nav aria-label="Main navigation">
