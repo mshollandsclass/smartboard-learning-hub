@@ -55,7 +55,7 @@ const Index = () => {
             src={logo}
             alt=""
             aria-hidden="true"
-            className="absolute right-0 bottom-0 w-[50%] max-w-lg opacity-[0.15] pointer-events-none select-none"
+            className="absolute right-0 bottom-0 w-[37.5%] max-w-sm opacity-[0.15] pointer-events-none select-none"
           />
           <motion.div
             initial={{ opacity: 0, y: 40 }}
