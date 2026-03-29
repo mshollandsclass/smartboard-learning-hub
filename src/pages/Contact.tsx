@@ -48,7 +48,7 @@ const Contact = () => {
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
               className="flex items-center gap-6"
             >
-              <img src="/centerstaged-logo.svg" alt="" aria-hidden="true" className="h-20 w-20 md:h-24 md:w-24 brightness-0 invert opacity-80" />
+              <img src={`${import.meta.env.BASE_URL}centerstaged-logo.svg`} alt="" aria-hidden="true" className="h-20 w-20 md:h-24 md:w-24 brightness-0 invert opacity-80" />
               <div>
                 <h1 className="font-heading text-4xl md:text-6xl font-bold tracking-tight text-primary-foreground">
                   Need Help?
