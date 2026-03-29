@@ -90,7 +90,7 @@ const Index = () => {
         </section>
 
         {/* About */}
-        <section id="about" className="bg-foreground text-background" aria-labelledby="about-heading">
+        <section id="about" className="bg-primary text-primary-foreground" aria-labelledby="about-heading">
           <div className="container py-24 md:py-32">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
