@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ProductCard from "@/components/ProductCard";
-import { Monitor } from "lucide-react";
+import logo from "/logo.png";
 
 const products = [
   {
