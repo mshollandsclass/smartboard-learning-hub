@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ProductCard from "@/components/ProductCard";
-import { Monitor } from "lucide-react";
+import logo from "/logo.png";
 
 const products = [
   {
@@ -35,7 +35,7 @@ const Index = () => {
       <header className="border-b border-border" role="banner">
         <div className="container flex items-center justify-between py-5">
           <a href="/" className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground" aria-label="Homepage">
-            <Monitor className="w-5 h-5" strokeWidth={2} aria-hidden="true" />
+            <img src={logo} alt="centerstaged.io logo" className="w-6 h-6" width={512} height={512} />
             <span className="font-heading text-lg font-bold tracking-tight">centerstaged.io</span>
           </a>
           <nav aria-label="Main navigation">
