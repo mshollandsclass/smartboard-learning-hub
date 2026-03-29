@@ -40,7 +40,7 @@ const Contact = () => {
 
       <main>
         {/* Hero banner */}
-        <section className="bg-muted py-16 md:py-24">
+        <section className="bg-primary py-16 md:py-24">
           <div className="container">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -48,9 +48,9 @@ const Contact = () => {
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
               className="flex items-center gap-6"
             >
-              <img src="/centerstaged-logo.svg" alt="" aria-hidden="true" className="h-20 w-20 md:h-24 md:w-24" />
+              <img src="/centerstaged-logo.svg" alt="" aria-hidden="true" className="h-20 w-20 md:h-24 md:w-24 brightness-0 invert opacity-80" />
               <div>
-                <h1 className="font-heading text-4xl md:text-6xl font-bold tracking-tight">
+                <h1 className="font-heading text-4xl md:text-6xl font-bold tracking-tight text-primary-foreground">
                   Need Help?
                   <br />
                   We're Here For You.
