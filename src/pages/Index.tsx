@@ -42,7 +42,7 @@ const Index = () => {
             <ul className="flex items-center gap-8 font-body text-sm">
               <li><a href="#products" className="text-muted-foreground hover:text-foreground transition-colors">Products</a></li>
               <li><a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About</a></li>
-              <li><a href="mailto:hello@centerstaged.io" className="text-foreground font-medium hover:text-muted-foreground transition-colors">Contact</a></li>
+              <li><a href="/contact" className="text-foreground font-medium hover:text-muted-foreground transition-colors">Contact</a></li>
             </ul>
           </nav>
         </div>
