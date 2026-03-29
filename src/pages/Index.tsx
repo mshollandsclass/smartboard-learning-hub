@@ -116,7 +116,7 @@ const Index = () => {
       <footer className="border-t border-border" role="contentinfo">
         <div className="container py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-body text-sm text-muted-foreground">
-            © {new Date().getFullYear()} BoardLab. All rights reserved.
+            © {new Date().getFullYear()} CenterStaged. All rights reserved.
           </p>
           <p className="font-body text-xs text-muted-foreground">
             WCAG 2.1 AA Compliant
