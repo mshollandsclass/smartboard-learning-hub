@@ -35,8 +35,7 @@ const Index = () => {
       <header className="border-b border-border" role="banner">
         <div className="container flex items-center justify-between py-5">
           <a href="/" className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground" aria-label="Homepage">
-            <img src={logo} alt="centerstaged.io logo" className="h-9 w-auto" />
-            <span className="font-heading text-4xl font-bold tracking-tight uppercase">centerstaged.io</span>
+            <span className="font-heading text-4xl font-bold tracking-tight">centerstaged.io</span>
           </a>
           <nav aria-label="Main navigation">
             <ul className="flex items-center gap-8 font-body text-sm">
@@ -50,11 +49,19 @@ const Index = () => {
 
       {/* Hero */}
       <main id="main-content">
-        <section className="container py-24 md:py-40" aria-labelledby="hero-heading">
+        <section className="container py-24 md:py-40 relative overflow-hidden" aria-labelledby="hero-heading">
+          {/* Watermark logo */}
+          <img
+            src={logo}
+            alt=""
+            aria-hidden="true"
+            className="absolute right-0 bottom-0 w-[50%] max-w-lg opacity-[0.15] pointer-events-none select-none"
+          />
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+            className="relative z-10"
           >
             <h1
               id="hero-heading"
