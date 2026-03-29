@@ -49,11 +49,19 @@ const Index = () => {
 
       {/* Hero */}
       <main id="main-content">
-        <section className="container py-24 md:py-40" aria-labelledby="hero-heading">
+        <section className="container py-24 md:py-40 relative overflow-hidden" aria-labelledby="hero-heading">
+          {/* Watermark logo */}
+          <img
+            src={logo}
+            alt=""
+            aria-hidden="true"
+            className="absolute right-0 bottom-0 w-[50%] max-w-lg opacity-[0.15] pointer-events-none select-none"
+          />
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+            className="relative z-10"
           >
             <h1
               id="hero-heading"
