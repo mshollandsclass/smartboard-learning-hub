@@ -7,16 +7,19 @@ const products = [
     title: "StoryDrop",
     description: "Interactive storytelling game designed for collaborative classroom engagement on smartboards.",
     href: "/storydrop",
+    tag: "Game",
   },
   {
     title: "Jeopardy",
     description: "Customizable quiz-show format that turns review sessions into competitive, memorable experiences.",
     href: "/jeopardy/",
+    tag: "Game",
   },
   {
     title: "Vocab",
     description: "Visual vocabulary builder with spaced repetition, optimized for whole-class smartboard use.",
     href: "/vocab/",
+    tag: "Study Tool",
   },
 ];
 
@@ -83,7 +86,7 @@ const Index = () => {
         {/* Products */}
         <section id="products" className="container pb-24 md:pb-40" aria-labelledby="products-heading">
           <h2 id="products-heading" className="sr-only">Our Products</h2>
-          <div>
+          <div className="grid gap-5 sm:gap-6">
             {products.map((product, i) => (
               <ProductCard
                 key={product.title}
@@ -91,9 +94,9 @@ const Index = () => {
                 description={product.description}
                 href={product.href}
                 index={i}
+                tag={product.tag}
               />
             ))}
-            <div className="border-t border-border" aria-hidden="true" />
           </div>
         </section>
 
