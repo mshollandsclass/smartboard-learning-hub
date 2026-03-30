@@ -13,7 +13,7 @@ const ProductCard = ({ title, description, href, index, tag = "Game" }: ProductC
   return (
     <motion.a
       href={href}
-      className="group relative block rounded-lg border border-border bg-card p-8 md:p-10 transition-all duration-300 hover:bg-accent hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground focus-visible:ring-offset-4 focus-visible:ring-offset-background"
+      className="group relative block rounded-[5px] border border-border bg-card p-8 md:p-10 transition-all duration-300 hover:bg-foreground hover:border-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground focus-visible:ring-offset-4 focus-visible:ring-offset-background"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
