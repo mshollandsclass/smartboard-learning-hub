@@ -4,9 +4,9 @@ import logo from "/logo.svg";
 
 const products = [
   {
-    title: "Story Drop",
+    title: "StoryDrop",
     description: "Interactive storytelling game designed for collaborative classroom engagement on smartboards.",
-    href: "/storydrop/",
+    href: "/storydrop",
   },
   {
     title: "Jeopardy",
