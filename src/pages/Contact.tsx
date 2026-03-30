@@ -51,9 +51,9 @@ const Contact = () => {
               <img src={`${import.meta.env.BASE_URL}centerstaged-logo.svg`} alt="" aria-hidden="true" className="h-20 w-20 md:h-24 md:w-24 brightness-0 invert opacity-80" />
               <div>
                 <h1 className="font-heading text-4xl md:text-6xl font-bold tracking-tight text-primary-foreground">
-                  Need Help?
+                  We'd love to
                   <br />
-                  We're Here For You.
+                  hear from you.
                 </h1>
               </div>
             </motion.div>
