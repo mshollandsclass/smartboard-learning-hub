@@ -28,7 +28,7 @@ const ProductCard = ({ title, description, href, index, tag = "Game" }: ProductC
           <h3 className="font-heading text-3xl md:text-5xl font-bold tracking-tight text-foreground group-hover:text-background transition-colors duration-300">
             {title}
           </h3>
-          <p className="mt-1 text-base md:text-lg text-muted-foreground max-w-xl font-body leading-relaxed">
+          <p className="mt-1 text-base md:text-lg text-muted-foreground max-w-xl font-body leading-relaxed group-hover:text-background/70 transition-colors">
             {description}
           </p>
         </div>
