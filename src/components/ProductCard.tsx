@@ -22,7 +22,7 @@ const ProductCard = ({ title, description, href, index, tag = "Game" }: ProductC
     >
       <div className="flex items-start justify-between gap-6">
         <div className="space-y-4">
-          <span className="inline-block rounded-full border border-border px-3 py-0.5 text-xs font-medium tracking-widest text-muted-foreground uppercase font-body group-hover:border-muted-foreground/40 transition-colors">
+          <span className="inline-block rounded-full border border-border px-3 py-0.5 text-xs font-medium tracking-widest text-muted-foreground uppercase font-body group-hover:border-background/40 group-hover:text-background/70 transition-colors">
             {tag}
           </span>
           <h3 className="font-heading text-3xl md:text-5xl font-bold tracking-tight text-foreground group-hover:text-foreground transition-colors duration-300">
