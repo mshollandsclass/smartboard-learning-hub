@@ -51,9 +51,9 @@ const Contact = () => {
               <img src={`${import.meta.env.BASE_URL}centerstaged-logo.svg`} alt="" aria-hidden="true" className="h-20 w-20 md:h-24 md:w-24 brightness-0 invert opacity-80" />
               <div>
                 <h1 className="font-heading text-4xl md:text-6xl font-bold tracking-tight text-primary-foreground">
-                  Need Help?
+                  We'd love to
                   <br />
-                  We're Here For You.
+                  hear from you.
                 </h1>
               </div>
             </motion.div>
@@ -70,11 +70,18 @@ const Contact = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <h2 className="font-heading text-2xl md:text-3xl font-bold tracking-tight mb-4">
-                Get In Touch!
+                Whether you've got a question, hit a snag, or just want to share how our tools have transformed your classroom — our inbox is always open.
               </h2>
-              <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                Need help with something? Send us a message using the form and we'll get back to you promptly!
+              <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+                Teaching is busy enough. If something isn't working the way it should, or you're not sure how to get the most out of your templates, don't spend another free period troubleshooting alone. Drop us a message and we'll get back to you promptly — real help, from real people who care about making your classroom run smoother.
               </p>
+              <p className="text-foreground font-heading font-semibold mb-3">We're happy to help with:</p>
+              <ul className="text-muted-foreground text-base leading-relaxed space-y-2 mb-8 list-disc list-inside">
+                <li>Questions about templates or how to use them</li>
+                <li>Technical issues or setup support</li>
+                <li>Collaboration, partnerships, or press enquiries</li>
+                <li>Feedback, ideas, or just saying hello</li>
+              </ul>
               <div className="border-t border-border pt-8">
                 <a
                   href="mailto:hello@centerstaged.io"
