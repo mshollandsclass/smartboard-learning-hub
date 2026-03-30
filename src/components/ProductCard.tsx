@@ -32,7 +32,7 @@ const ProductCard = ({ title, description, href, index, tag = "Game" }: ProductC
             {description}
           </p>
         </div>
-        <div className="mt-6 shrink-0 rounded-full border border-border p-3 text-muted-foreground group-hover:bg-foreground group-hover:text-background group-hover:border-foreground transition-all duration-300" aria-hidden="true">
+        <div className="mt-6 shrink-0 rounded-full border border-border p-3 text-muted-foreground group-hover:bg-background group-hover:text-foreground group-hover:border-background transition-all duration-300" aria-hidden="true">
           <ArrowUpRight className="w-5 h-5 md:w-6 md:h-6 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" strokeWidth={1.5} />
         </div>
       </div>
