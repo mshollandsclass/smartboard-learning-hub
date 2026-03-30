@@ -7,16 +7,19 @@ const products = [
     title: "StoryDrop",
     description: "Interactive storytelling game designed for collaborative classroom engagement on smartboards.",
     href: "/storydrop",
+    tag: "Game",
   },
   {
     title: "Jeopardy",
     description: "Customizable quiz-show format that turns review sessions into competitive, memorable experiences.",
     href: "/jeopardy/",
+    tag: "Game",
   },
   {
     title: "Vocab",
     description: "Visual vocabulary builder with spaced repetition, optimized for whole-class smartboard use.",
     href: "/vocab/",
+    tag: "Study Tool",
   },
 ];
 
